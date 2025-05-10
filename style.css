@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Great+Vibes&display=swap");
+body {
+  background-color: green;
+}
+h1 {
+  text-align: center;
+  background: #0f3d0f;
+  background: linear-gradient(
+    90deg,
+    rgba(15, 61, 15, 1) 30%,
+    rgba(41, 133, 40, 1) 71%,
+    rgba(24, 130, 22, 1) 88%
+  );
+}
+h1,
+h2 {
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+}
+p {
+  font-family: "Pacifico", cursive;
+}
+@media (min-width: 100px and max-width: 600px) {
+  body {
+    background-color: #ede43b;
+  }
+}
